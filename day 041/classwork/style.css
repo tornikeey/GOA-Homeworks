@@ -1,0 +1,53 @@
+main {
+
+    /* ღერძი-y
+       მდებარეობა-ცენტრი */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* ღერძი-y
+    მდებარეობა-მარცხენა მხარე
+
+    display: flex ;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+
+    ღერძი-y
+    მდებარეობა-მარჯვენა მხარე
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+
+    ღერძი-x
+    მდებარეობა-ცენტრი
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    ღერძი-x
+    მდებარეობა-მარცხენა მხარე
+
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+
+    ღერძი-x
+    მდებარეობა-მარჯვენა მხარე
+
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: end; */
+}
+
+
+

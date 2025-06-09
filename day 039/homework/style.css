@@ -1,0 +1,57 @@
+body {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 800px;
+    background-image: url('wp6560668.jpg');
+    background-size: cover;
+}
+
+.Login {
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 850px;
+    backdrop-filter: blur(10px);
+    
+}
+
+input {
+    font-size: 36px;
+    height: 70px;
+    border-radius: 45px;
+    text-align: center;
+    
+}
+
+button {
+    font-size: 36px;
+    height: 75px;
+    width: 250px;
+    align-items: center;
+    margin-left: 300px;
+    border-radius: 45px;
+    background-color: rgb(19, 19, 31);
+    color:white;
+    cursor: pointer;
+    transition: 0.5s;
+    
+}
+
+button:hover {
+    font-size: 42px;
+    height: 75px;
+    width: 250px;
+    align-items: center;
+    margin-left: 300px;
+    border-radius: 45px;
+    background-color: rgb(100, 18, 18);
+    color:white;
+    cursor: pointer;
+
+
+}
