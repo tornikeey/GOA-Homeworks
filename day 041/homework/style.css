@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main {
+    width: 600px;
+    display: flex;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+#left {
+    width: 50%;
+}
+
+#left img {
+    width: 100%;
+    height: 100%;
+}
+
+#right {
+    width: 50%;
+    background-color: white;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+button {
+    padding: 10px 0;
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 8px;
+    border: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 9px;
+    font-family: roboto;
+
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: hsl(158, 42%, 18%);
+}
+
+#high {
+    font-family: montserrat;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 3px;
+}
+
+h1 {
+    font-family: fraunces;
+    color: hsl(212, 21%, 14%);
+    font-weight: 200px;
+}
+
+#middle-title {
+    font-family: montserrat;
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+
+}
+
+#one {
+    color: hsl(158, 36%, 37%);
+    font-family: fraunces;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#price {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#price p:nth-child(2) {
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+}

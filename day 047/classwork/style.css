@@ -1,0 +1,22 @@
+.box {
+    height: 300px;
+    width: 300px;
+    background: palegreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: medium;
+    transition: transform 2s ease;
+}
+
+section:active {
+    transform: rotate(90deg),
+}   
+
+section:active {
+    transform: scale(1,5);
+}
+
+section:active {
+    transform: translate(50px);
+}
