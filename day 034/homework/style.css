@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(240, 240, 255); /* ღია ლურჯი ფონი */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 30px;
+}
+
+#main-title {
+    color: rgb(60, 60, 160);
+    text-shadow: 1px 1px 2px rgb(180, 180, 255);
+}
+
+.text {
+    font-size: 18px;
+    color: rgb(50, 50, 50);
+}
+
+.site-image {
+    margin: 20px 0;
+    border: 3px solid rgb(100, 100, 200);
+}
+
+.footer-text {
+    color: rgb(100, 100, 100);
+    font-size: 14px;
+    margin-top: 40px;
+}
