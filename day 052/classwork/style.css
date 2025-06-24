@@ -1,0 +1,65 @@
+    /* .box {
+      width: 100px;
+      height: 100px;
+      background-color: cornflowerblue;
+      position: relative;   /*Write down the mentioned position*/
+      
+      /* animation-name: moveRight;   /* This Component is Animation Name
+      animation-duration: 3s;      /* how long does it last
+      animation-delay: 1s;         how long to start late */
+
+    /* Keyframes — Description of animation steps
+    @keyframes moveRight {
+      from {
+        left: 0;
+      }
+      to {
+        left: 300px;
+      }
+    } */
+
+
+
+body {
+  background-color: #1e1e1e;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.loader-container p {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.progress-bar {
+  width: 300px;
+  height: 20px;
+  border: 2px solid #00bfa5;
+  border-radius: 10px;
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+.progress-fill {
+  height: 100%;
+  width: 0%;
+  background-color: #00bfa5;
+  animation: loading 3s infinite;
+  border-radius: 10px 0 0 10px;
+}
+
+@keyframes loading {
+  0% {
+    width: 0%;
+  }
+  50% {
+    width: 50%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
